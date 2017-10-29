@@ -38,7 +38,7 @@ def game_serve_first():
     dealertop = 0
     pt = 0
     dt = 0
-    print("The dealer is mixing cards", end=" ")
+    print("The dealer is mixing cards", end =" ")
     print_slow("************")
     #print("**", end=" ")
     d = random.randint(1, 11)
@@ -46,7 +46,7 @@ def game_serve_first():
     pt = pt + p
     dt = dt + d
     print("/n")
-    print("Player first card  is     --> ", end=" ")
+    print("Player first card  is     --> ", end =" ")
     print(p)
     d = random.randint(1, 11)
     p = random.randint(1, 11)
@@ -57,9 +57,9 @@ def game_serve_first():
     print("Player Second card  is    --> ",p)
     #print(p)
     print("\n")
-    print("Player total  is  ", end=" ")
+    print("Player total  is  ", end =" ")
     print(pt, "\n")
-    print("Dealer top card is ", end=" ")
+    print("Dealer top card is ", end =" ")
     print(dealertop, "\n")
     # print("Dealer number is Hidden from player \n",end=" ")
     if pt == 21:
