@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "AWS Validator Extension",
+  "description": "This extension monitors the modify,delete,alter actions in AWS with a popup confirmatio",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
